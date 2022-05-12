@@ -8,8 +8,8 @@ import { printBanner } from "./utils/bannerUtils";
 import { printPersonTreeAsAscii } from "./utils/toAsciiTree";
 
 async function mainProgram() {
-  printBanner("BARATHEON");
-  printPersonTreeAsAscii(createBaratheonTree());
+  // printBanner("BARATHEON");
+  // printPersonTreeAsAscii(createBaratheonTree());
 
   printBanner("STARK");
   printPersonTreeAsAscii(createStarkTree());
